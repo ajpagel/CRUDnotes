@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD NOTES</title>
-    <link src="stylesheet" href="styles.css">
-    <link src="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 
 </head>
-<body>
-    
+<body class="container">
+    <div id="new-house" class="jumbotron"> <!--put first part in div-->
+        <h2>New House</h2>
+        <input type = "text" id="new-house-name" class="form-control"> <br> <!--form-control is bootstrap styling-->
+        <button id="create-new-house" class="btn btn-primary form-control">Create</button>
 
+    </div> <!--close new-house-->
 
+    <div id="app">
+
+    </div> <!--close id app-->
 
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="CRUD.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 
 </body>
 </html>
